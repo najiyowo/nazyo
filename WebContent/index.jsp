@@ -15,6 +15,7 @@
 	<div class="indexbottom">
 		<img src="images/spoon.png">
 		<p>誰でもできるレシピ.</p>
+		aaaaaa
 	</div>
 </div>
 <div class="col-sm-12 col-md-12">
