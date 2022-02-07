@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* Pagination links */
+.pagination a {
+	color: black;
+	float: left;
+	padding: 8px 13px;
+	text-decoration: none;
+	transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+	background-color: dodgerblue;
+	color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {
+	background-color: #ddd;
+}
+
+.pagination {
+	height: 30px;
+}
+
+.writeabutton{
+	height: 40px;
+	border: solid 1px #000;
+	color: #000;
+	padding: 6px 12px;
+	font-size: 16px;
+	font-weight: 400;
+	border-radius: 4px;
+}
+
+.subtitleinsubpage {
+	padding: 25px;
+	text-align: center;
+	
+}
+
+.subtitleinsubpage h2{
+	display:inline;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #ccc;
+}
+
+
+
+th,td{
+	text-align: center;
+	padding: 10px 0;
+	border-bottom: solid 2px #ccc;
+}
+
+.contenttext p,.contenttext h3{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.contentgyarari p, .contentgyarari h3 {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.content_reispi {
+	height:150px;
+	margin-bottom: 10px;
+}
+
+.content_reispi a{
+	cursor: pointer;
+	text-decoration: none;
+} 
+
+.content_reispi span{
+	color:#000;
+}
+
+.resipi_img{
+	height:150px;
+	width:100%;
+}
+
+.resipi_title{
+	display:block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: bold;
+	font-size: 30px;
+}
+

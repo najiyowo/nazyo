@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+.background_gogi {
+	background-image: url(../images/pork-belly-gb3cfbf73f_1920.jpg);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	z-index: -200;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.wh100per {
+	position: relative; width : 100%;
+	height: 100%;
+	width: 100%;
+}
+
+.wh100per:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.subtitle {
+	z-index: -180;
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	transform: translate(0, -50%);
+}
+
+.indexbottom{
+	position: relative;
+	width: 100%;
+	height: 20%;
+	position: absolute;
+	bottom: 0;
+	background: #fff;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.indexbottom>img{
+	position: absolute;
+	bottom: 50%;
+	left:50%;
+	transform: translate(-50%,0);
+}
+
+.indexbottom > p{
+	position: absolute;
+	bottom:17%;
+	left:50%;
+	transform: translate(-50%,0);
+}
+
+.tab-pane>ul>li{
+	float:left;
+	text-align: center;
+}
+
+.tabtitle>p{
+	font-size: 30px;
+	font-weight: bold;
+	white-space: nowrap;
+	padding-bottom: 30px;
+	border-bottom: solid 1px #ccc;
+}
+
+.bottomnav>ul >li{
+	float:left;
+}
+
+.maincontent{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
