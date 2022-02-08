@@ -14,7 +14,7 @@
 	</div>
 	<div class="indexbottom">
 		<img src="images/spoon.png">
-		<p>誰でもできるレシピ..?</p>
+		<p>誰でもできるレシピ</p>
 	</div>
 </div>
 <div class="col-sm-12 col-md-12">
